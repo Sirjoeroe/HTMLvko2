@@ -1,6 +1,5 @@
 html {
     background-color: #f0f0f0;
-    color: #666;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -10,7 +9,7 @@ ul {
     margin: 0;
     padding: 1%;
     background-color: #333;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 li {
@@ -30,10 +29,16 @@ li a {
     padding: 0;
 }
 
-div {
+#etusivu {
+    font-size: 20px;
+    color: aquamarine;
+}
+
+#tietoja {
     padding: 1em;
     font-size: 30px;
-}
+    color: rgb(255, 38, 0);
+    }
 
 li a:hover {
     background-color: #111;
